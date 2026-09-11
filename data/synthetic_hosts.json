@@ -1,0 +1,5 @@
+[
+  {"host_id":"RDP-01","hostname":"LAB-RDP-01","internet_exposed":false,"nla_enabled":true,"mfa_enabled":true,"restricted_admin":true,"encryption_level":"high","allow_drive_redirection":false,"allow_clipboard_redirection":false,"idle_timeout_minutes":15,"lockout_threshold":5,"logging_enabled":true,"privileged_group_count":3,"owner":"Infrastructure Security"},
+  {"host_id":"RDP-02","hostname":"LAB-RDP-LEGACY","internet_exposed":true,"nla_enabled":false,"mfa_enabled":false,"restricted_admin":false,"encryption_level":"low","allow_drive_redirection":true,"allow_clipboard_redirection":true,"idle_timeout_minutes":0,"lockout_threshold":0,"logging_enabled":false,"privileged_group_count":12,"owner":"Legacy Platforms"},
+  {"host_id":"RDP-03","hostname":"LAB-RDP-ADMIN","internet_exposed":false,"nla_enabled":true,"mfa_enabled":true,"restricted_admin":false,"encryption_level":"high","allow_drive_redirection":false,"allow_clipboard_redirection":true,"idle_timeout_minutes":45,"lockout_threshold":5,"logging_enabled":true,"privileged_group_count":7,"owner":"Server Operations"}
+]
